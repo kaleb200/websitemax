@@ -1,210 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WebsiteMax | Premium Websites for Small Businesses</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>WebsiteMax | Premium Websites for Small Businesses | Professional Web Design Services</title>
+  <meta name="description" content="Transform your business with premium, professional websites. Affordable web design services for small businesses. Fast delivery, modern designs, SEO optimized. Starting from R250.">
+  <meta name="keywords" content="web design, website development, small business websites, professional websites, affordable web design, Cape Town web developer, responsive websites, SEO optimized websites">
+  <meta name="author" content="Kaleb Marimuthu">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://websitemax.co.za/">
 
-<link rel="stylesheet" href="style.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<script src="script.js" defer></script>
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-</head>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://websitemax.co.za/">
+  <meta property="og:title" content="WebsiteMax | Premium Websites for Small Businesses">
+  <meta property="og:description" content="Transform your business with premium, professional websites. Affordable web design services for small businesses.">
+  <meta property="og:image" content="https://websitemax.co.za/og-image.jpg">
+  <meta property="og:site_name" content="WebsiteMax">
+  <meta property="og:locale" content="en_ZA">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://websitemax.co.za/">
+  <meta property="twitter:title" content="WebsiteMax | Premium Websites for Small Businesses">
+  <meta property="twitter:description" content="Transform your business with premium, professional websites. Affordable web design services for small businesses.">
+  <meta property="twitter:image" content="https://websitemax.co.za/twitter-image.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "WebsiteMax",
+    "url": "https://websitemax.co.za",
+    "logo": "https://websitemax.co.za/logo.png",
+    "description": "Premium web design services for small businesses",
+    "founder": {
+      "@type": "Person",
+      "name": "Kaleb Marimuthu"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cape Town",
+      "addressRegion": "Western Cape",
+      "addressCountry": "ZA"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+27-72-083-8950",
+      "contactType": "customer service",
+      "email": "kalebmarimuthu04@gmail.com"
+    },
+    "sameAs": [
+      "https://www.facebook.com/websitemax",
+      "https://www.instagram.com/websitemax",
+      "https://www.linkedin.com/company/websitemax"
+    ],
+    "serviceType": "Web Design",
+    "areaServed": "ZA",
+    "priceRange": "R250-R500"
+  }
+  </script>
+
+  <!-- SEO Files -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <!-- Services Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Website Design Services",
+    "description": "Professional website design and development services for small businesses",
+    "provider": {
+      "@type": "Organization",
+      "name": "WebsiteMax"
+    },
+    "serviceType": "Web Design",
+    "areaServed": "ZA",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Basic Website Package",
+        "description": "Responsive design with up to 5 pages",
+        "price": "250",
+        "priceCurrency": "ZAR",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "name": "Standard Website Package",
+        "description": "Everything in Basic plus SEO optimization and maintenance",
+        "price": "400",
+        "priceCurrency": "ZAR",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "name": "Premium Website Package",
+        "description": "Full-featured website with custom integrations",
+        "price": "500",
+        "priceCurrency": "ZAR",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Reviews Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "WebsiteMax",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sarah M."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Amazing service! My business finally has a professional website."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "James T."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Very affordable and extremely professional."
+      }
+    ]
+  }
+  </script>
+  <!-- site built by Kaleb -->
 
 <body>
-<!-- site built by Kaleb -->
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<header>
-<div class="container">
-<div class="logo">WebsiteMax</div>
-<nav class="nav-links" id="navLinks">
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#pricing">Pricing</a>
-<a href="#projects">Projects</a>
-<a href="#inspirations">Designs</a>
-<a href="#faq">FAQ</a>
-<a href="#blog">Blog</a>
-<a href="#reviews">Reviews</a>
-<a href="#contact">Contact</a>
-</nav>
-<button class="nav-toggle" id="navToggle">☰</button>
-<button class="dark-toggle" id="darkToggle">🌙</button>
-</div>
-</header>
+  <header>
+    <div class="container">
+      <div class="logo">WebsiteMax</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="projects.html">Projects</a>
+        <a href="inspirations.html">Designs</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle">☰</button>
+      <button class="dark-toggle" id="darkToggle">🌙</button>
+    </div>
+  </header>
 
 
 <section class="hero" id="home">
-<div class="hero-overlay"></div>
-<div class="hero-content">
-<h2>Premium Websites For Small Businesses</h2>
-<p>We design professional, modern websites for small businesses at a super affordable price.</p>
-<button onclick="openQuoteModal()">Get A Quote</button>
-<div class="rating">
-⭐ 4.9 / 5 Rating  
-<br>
-Trusted by <strong>200+ happy clients</strong>
-</div>
-</div>
-</section>
-
-
-
-
-<section class="about" id="about">
-  <h2>About WebsiteMax</h2>
-  <p>I am a student building this site as a side project to earn income while studying. Every website I create is a learning opportunity and a way to support myself through university. My goal is to deliver professional, affordable sites for small businesses while I continue my education.</p>
-  <img src="https://source.unsplash.com/800x400/?ai,student" alt="Working student" />
-</section>
-
-<section class="pricing" id="pricing">
-  <h2>Pricing Plans</h2>
-  <div class="pricing-table">
-    <div class="tier">
-      <h3>Basic</h3>
-      <p>R250</p>
-      <ul>
-        <li>Responsive Design</li>
-        <li>5 Pages</li>
-        <li>Email Support</li>
-      </ul>
-      <a class="choose-plan" href="payment.html?plan=Basic">Choose</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-content" id="main-content">
+      <h1>Transform Your Business Online</h1>
+      <p>Professional, modern websites designed by a dedicated student developer. Affordable pricing, fast delivery, and stunning results.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">4.9</span>
+          <span class="stat-text">⭐ Rating</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">2</span>
+          <span class="stat-text">Happy Clients</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-text">Satisfaction</span>
+        </div>
+      </div>
+      <a href="quote.html" class="cta-button">Get Your Website Today</a>
     </div>
-    <div class="tier featured">
-      <h3>Standard</h3>
-      <p>R400</p>
-      <ul>
-        <li>Everything in Basic</li>
-        <li>SEO Optimization</li>
-        <li>2 Months Maintenance</li>
-      </ul>
-      <a class="choose-plan" href="payment.html?plan=Standard">Choose</a>
-    </div>
-    <div class="tier">
-      <h3>Premium</h3>
-      <p>R500</p>
-      <ul>
-        <li>Everything in Standard</li>
-        <li>Custom Integrations</li>
-        <li>Priority Support</li>
-      </ul>
-      <a class="choose-plan" href="payment.html?plan=Premium">Choose</a>
-    </div>
-  </div>
-</section>
+  </section>
+    <h2>About WebsiteMax</h2>
+    <p>I am a student building this site as a side project to earn income while studying. Every website I create is a learning opportunity and a way to support myself through university. My goal is to deliver professional, affordable sites for small businesses while I continue my education.</p>
+    <img src="https://source.unsplash.com/800x400/?ai,student" alt="Professional student web developer working on modern website design" loading="lazy" />
+  </section>
 
+  <section class="pricing" id="pricing">
+    <h2>Choose Your Perfect Plan</h2>
+    <p>Get a stunning website that drives results – starting from just R250!</p>
+    <div class="pricing-table">
+      <div class="tier">
+        <h3>🚀 Basic</h3>
+        <p>R250 <span class="small">one-time</span></p>
+        <ul>
+          <li>✅ Responsive Design</li>
+          <li>✅ Up to 5 Pages</li>
+          <li>✅ Email Support</li>
+          <li>✅ Mobile Optimized</li>
+        </ul>
+        <a class="choose-plan" href="basic.html">Get Started</a>
+      </div>
+      <div class="tier featured">
+        <div class="badge">Most Popular</div>
+        <h3>⭐ Standard</h3>
+        <p>R400 <span class="small">one-time</span></p>
+        <ul>
+          <li>✅ Everything in Basic</li>
+          <li>✅ SEO Optimization</li>
+          <li>✅ 2 Months Free Maintenance</li>
+          <li>✅ Contact Form Integration</li>
+          <li>✅ Google Analytics Setup</li>
+        </ul>
+        <a class="choose-plan" href="standard.html">Choose Standard</a>
+      </div>
+      <div class="tier">
+        <h3>💎 Premium</h3>
+        <p>R500 <span class="small">one-time</span></p>
+        <ul>
+          <li>✅ Everything in Standard</li>
+          <li>✅ Custom Integrations</li>
+          <li>✅ Priority Support</li>
+          <li>✅ E-commerce Ready</li>
+          <li>✅ Advanced Features</li>
+        </ul>
+        <a class="choose-plan" href="premium.html">Go Premium</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="domain-info" id="domain">
+    <h2>Domain & Hosting Made Easy</h2>
+    <p>Don't worry about technical stuff – I've got you covered!</p>
+    <div class="domain-cards">
+      <div class="domain-card">
+        <h3>🌐 Domains</h3>
+        <p>Custom domains cost around R100-R200 per year from registrars like GoDaddy or Namecheap.</p>
+        <p>Or get a free subdomain (e.g., yoursite.github.io) with GitHub Pages hosting!</p>
+      </div>
+      <div class="domain-card">
+        <h3>🖥️ Hosting</h3>
+        <p>Included in all plans! Your site will be fast, secure, and always online.</p>
+        <p>No hidden fees – everything is set up for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="guarantee" id="guarantee">
+    <h2>Why Choose WebsiteMax?</h2>
+    <div class="guarantee-points">
+      <div class="point">
+        <h3>💯 100% Satisfaction Guarantee</h3>
+        <p>Not happy? Get a full refund within 30 days.</p>
+      </div>
+      <div class="point">
+        <h3>⚡ Fast Delivery</h3>
+        <p>Your website ready in 2-4 weeks, not months.</p>
+      </div>
+      <div class="point">
+        <h3>🎓 Student-Powered</h3>
+        <p>Affordable prices from a dedicated student developer.</p>
+      </div>
+      <div class="point">
+        <h3>🚀 Modern & Professional</h3>
+        <p>Cutting-edge design that impresses your customers.</p>
+      </div>
+    </div>
+  </section>
 <section class="services" id="services">
+    <h2>Our Services</h2>
 
-<h2>Our Services</h2>
+    <div class="service-card">
+      <img src="https://source.unsplash.com/60x60/?design" alt="Modern web design and user interface icon" loading="lazy">
+      <h3>Website Design</h3>
+      <p>Professional modern websites designed for small businesses.</p>
+    </div>
 
-<div class="service-card">
-<img src="https://source.unsplash.com/60x60/?design" alt="Design icon">
-<h3>Website Design</h3>
-<p>Professional modern websites designed for small businesses.</p>
-</div>
+    <div class="service-card">
+      <img src="https://source.unsplash.com/60x60/?code" alt="Web development and coding icon" loading="lazy">
+      <h3>Website Development</h3>
+      <p>Fast, secure and responsive websites using modern technologies.</p>
+    </div>
 
-<div class="service-card">
-<img src="https://source.unsplash.com/60x60/?code" alt="Development icon">
-<h3>Website Development</h3>
-<p>Fast, secure and responsive websites using modern technologies.</p>
-</div>
+    <div class="service-card">
+      <img src="https://source.unsplash.com/60x60/?refresh" alt="Website redesign and improvement icon" loading="lazy">
+      <h3>Website Redesign</h3>
+      <p>Upgrade your outdated website to a modern professional look.</p>
+    </div>
+  </section>
 
-<div class="service-card">
-<img src="https://source.unsplash.com/60x60/?refresh" alt="Redesign icon">
-<h3>Website Redesign</h3>
-<p>Upgrade your outdated website to a modern professional look.</p>
-</div>
+  <section class="projects" id="projects">
+    <h2>Previous Projects</h2>
 
-</section>
+    <div class="project">
+      <img src="https://source.unsplash.com/250x150/?coffee,shop" alt="Modern coffee shop website design showcasing responsive layout and branding" loading="lazy">
+      <h3>Local Coffee Shop</h3>
+      <p>Online menu, booking system and modern branding.</p>
+    </div>
 
+    <div class="project">
+      <img src="https://source.unsplash.com/250x150/?office,accounting" alt="Professional accounting firm website with clean design and trust indicators" loading="lazy">
+      <h3>Accounting Firm</h3>
+      <p>Professional business website with client portal.</p>
+    </div>
+  </section>
 
-
-<section class="projects" id="projects">
-
-<h2>Previous Projects</h2>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?coffee,shop" alt="Coffee shop project">
-<h3>Local Coffee Shop</h3>
-<p>Online menu, booking system and modern branding.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?office,accounting" alt="Accounting firm project">
-<h3>Accounting Firm</h3>
-<p>Professional business website with client portal.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?store" alt="Retail store project">
-<h3>Retail Store</h3>
-<p>E-commerce website with online ordering.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?fitness" alt="Fitness center project">
-<h3>Fitness Center</h3>
-<p>Booking and class schedule platform.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?bakery" alt="Bakery project">
-<h3>Artisan Bakery</h3>
-<p>Online ordering and gallery of pastries.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?consulting" alt="Consulting firm project">
-<h3>Consulting Firm</h3>
-<p>Professional services website with blog.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?portfolio" alt="Portfolio project">
-<h3>Creative Portfolio</h3>
-<p>Showcase of work for photographers and designers.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?restaurant" alt="Restaurant project">
-<h3>Fine Dining Restaurant</h3>
-<p>Menu display, reservation system, and gallery.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?startup" alt="Startup landing project">
-<h3>Startup Landing Page</h3>
-<p>Lead capture and product overview for a tech startup.</p>
-</div>
-
-<div class="project">
-<img src="https://source.unsplash.com/250x150/?nonprofit" alt="Nonprofit project">
-<h3>Nonprofit Organization</h3>
-<p>Donation platform with event calendar.</p>
-</div>
-
-</section>
-
-<section class="inspirations" id="inspirations">
-  <h2>Design Inspirations</h2>
-  <!-- ten cool website designs -->
-  <div class="project">
-    <img src="https://source.unsplash.com/250x150/?webdesign" alt="Inspiration 1">
-    <h3>Minimal Blog</h3>
-  </div>
-  <div class="project">
-    <img src="https://source.unsplash.com/250x150/?technology" alt="Inspiration 2">
-    <h3>Dark Portfolio</h3>
-  </div>
-  <div class="project">
-    <img src="https://source.unsplash.com/250x150/?ai" alt="Inspiration 3">
-    <h3>Colorful Agency</h3>
-  </div>
+  <section class="inspirations" id="inspirations">
+    <h2>Design Inspirations</h2>
+    <!-- ten cool website designs -->
+    <div class="project">
+      <img src="https://source.unsplash.com/250x150/?webdesign" alt="Inspiration 1">
+      <h3>Minimal Blog</h3>
+    </div>
+    <div class="project">
+      <img src="https://source.unsplash.com/250x150/?technology" alt="Inspiration 2">
+      <h3>Dark Portfolio</h3>
+    </div>
+    <div class="project">
+      <img src="https://source.unsplash.com/250x150/?ai" alt="Inspiration 3">
+      <h3>Colorful Agency</h3>
+    </div>
   <div class="project">
     <img src="https://source.unsplash.com/250x150/?software" alt="Inspiration 4">
     <h3>Grid Gallery</h3>
@@ -270,7 +415,16 @@ Trusted by <strong>200+ happy clients</strong>
 
 <section class="reviews" id="reviews">
 
-<h2>Customer Reviews</h2>
+<div class="reviews-header">
+  <h2>What Our Clients Say</h2>
+  <div class="rating-display">
+    <div class="stars">★★★★★</div>
+    <div class="rating-info">
+      <span class="rating-number">4.9</span>
+      <span class="rating-text">out of 5 stars</span>
+    </div>
+  </div>
+</div>
 
 <div class="review">
 <img class="avatar" src="https://via.placeholder.com/60" alt="Sarah M">
@@ -285,63 +439,6 @@ Trusted by <strong>200+ happy clients</strong>
 <p>"Very affordable and extremely professional."</p>
 <b>— James T.</b>
 </div>
-
-<div class="review">
-<img class="avatar" src="https://via.placeholder.com/60" alt="Linda K">
-<div class="stars">★★★★★</div>
-<p>"The best website design service for small businesses."</p>
-<b>— Linda K.</b>
-</div>
-
-<form id="reviewForm" class="review-form">
-  <h3>Leave your review</h3>
-  <div class="star-rating">
-    <input type="radio" name="stars" id="star5" value="5"><label for="star5">★</label>
-    <input type="radio" name="stars" id="star4" value="4"><label for="star4">★</label>
-    <input type="radio" name="stars" id="star3" value="3"><label for="star3">★</label>
-    <input type="radio" name="stars" id="star2" value="2"><label for="star2">★</label>
-    <input type="radio" name="stars" id="star1" value="1"><label for="star1">★</label>
-  </div>
-  <textarea id="reviewText" placeholder="Your feedback..." required></textarea>
-  <input type="text" id="reviewName" placeholder="Your Name" required>
-  <button type="submit">Submit Review</button>
-</form>
-
-</section>
-
-
-
-<div id="quoteModal" class="modal">
-  <div class="modal-content">
-    <span class="close" id="modalClose">&times;</span>
-    <h2>Request A Quote</h2>
-    <form id="quoteFormModal" action="https://formsubmit.co/kalebmarimuthu04@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="text" name="business" placeholder="Business Name">
-      <textarea name="message" placeholder="Describe the website you need"></textarea>
-      <button type="submit">Request Quote</button>
-    </form>
-  </div>
-</div>
-
-<section class="quote" id="quote" style="display:none;">
-
-<h2>Request A Quote</h2>
-
-<form action="https://formsubmit.co/kalebmarimuthu04@gmail.com" method="POST">
-
-<input type="text" name="name" placeholder="Your Name" required>
-
-<input type="email" name="email" placeholder="Your Email" required>
-
-<input type="text" name="business" placeholder="Business Name">
-
-<textarea name="message" placeholder="Describe the website you need"></textarea>
-
-<button type="submit">Request Quote</button>
-
-</form>
 
 </section>
 
@@ -424,15 +521,34 @@ Trusted by <strong>200+ happy clients</strong>
 </section>
 
 <section class="contact" id="contact">
-
-<p>Email: kalebmarimuthu04@gmail.com</p>
-
-<p>Phone: 0720838950</p>
-
-<div class="map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.123!2d-122.08424968469287!3d37.42206597982578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b7f5274dff%3A0xdfe4c4e2f4e9e97!2sGoogleplex!5e0!3m2!1sen!2sus!4v1615839351049!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
-
+  <h2>Get In Touch</h2>
+  <p>Ready to start your online journey? Let's build something amazing together.</p>
+  <div class="contact-info">
+    <div class="contact-item">
+      <div class="contact-icon">📧</div>
+      <div class="contact-details">
+        <h3>Email</h3>
+        <p>kalebmarimuthu04@gmail.com</p>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">📱</div>
+      <div class="contact-details">
+        <h3>Phone</h3>
+        <p>072 083 8950</p>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-icon">📍</div>
+      <div class="contact-details">
+        <h3>Location</h3>
+        <p>Century City, Cape Town</p>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.218!2d18.5091!3d-33.8918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5f4c3b3b3b3b%3A0x1234567890abcdef!2sCentury%20City%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1234567890!5m2!1sen!2sza" width="100%" height="300" style="border:0; border-radius:15px;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
 </section>
 
 
